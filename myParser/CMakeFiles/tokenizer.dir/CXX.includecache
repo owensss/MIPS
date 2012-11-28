@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dropbox/myParser/Token.hpp
+string
+-
+vector
+-
+
+D:/Dropbox/myParser/misc.hpp
+string
+-
+
+D:/Dropbox/myParser/tokenizer.cpp
+tokenizer.hpp
+D:/Dropbox/myParser/tokenizer.hpp
+misc.hpp
+D:/Dropbox/myParser/misc.hpp
+string
+-
+vector
+-
+iostream
+-
+iostream
+-
+
+D:/Dropbox/myParser/tokenizer.hpp
+Token.hpp
+D:/Dropbox/myParser/Token.hpp
+vector
+-
+string
+-
+

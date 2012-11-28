@@ -1,0 +1,286 @@
+The system is: Windows - 6.1 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Soft/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Soft/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:/Soft/MinGW/bin/mingw32-make.exe "cmTryCompileExec4270462467/fast"
+D:\Soft\GnuWin32\bin\make -f CMakeFiles\cmTryCompileExec4270462467.dir\build.make CMakeFiles/cmTryCompileExec4270462467.dir/build
+make[1]: Entering directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4270462467.dir/testCCompiler.c.obj
+D:\Soft\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec4270462467.dir\testCCompiler.c.obj   -c D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTryCompileExec4270462467.exe
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec4270462467.dir\link.txt --verbose=1
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec4270462467.dir/objects.a
+D:\Soft\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec4270462467.dir/objects.a @CMakeFiles\cmTryCompileExec4270462467.dir\objects1.rsp
+D:\Soft\MinGW\bin\gcc.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec4270462467.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec4270462467.exe -Wl,--out-implib,libcmTryCompileExec4270462467.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:/Soft/MinGW/bin/mingw32-make.exe "cmTryCompileExec920701270/fast"
+D:\Soft\GnuWin32\bin\make -f CMakeFiles\cmTryCompileExec920701270.dir\build.make CMakeFiles/cmTryCompileExec920701270.dir/build
+make[1]: Entering directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec920701270.dir/CMakeCCompilerABI.c.obj
+D:\Soft\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec920701270.dir\CMakeCCompilerABI.c.obj   -c "d:\Soft\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec920701270.exe
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec920701270.dir\link.txt --verbose=1
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec920701270.dir/objects.a
+D:\Soft\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec920701270.dir/objects.a @CMakeFiles\cmTryCompileExec920701270.dir\objects1.rsp
+D:\Soft\MinGW\bin\gcc.exe       -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec920701270.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec920701270.exe -Wl,--out-implib,libcmTryCompileExec920701270.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=D:\Soft\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.7.0/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+Thread model: win32
+gcc version 4.7.0 (GCC) 
+COMPILER_PATH=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/;d:/soft/mingw/bin/../libexec/gcc/;d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/bin/
+LIBRARY_PATH=d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/;d:/soft/mingw/bin/../lib/gcc/;D:/Soft/boost_1_51_0/stage/lib/;d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib/;d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec920701270.exe' '-mtune=i386' '-march=i386'
+ d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/collect2.exe -Bdynamic -o cmTryCompileExec920701270.exe d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../crt2.o d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtbegin.o -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0 -Ld:/soft/mingw/bin/../lib/gcc -LD:/Soft/boost_1_51_0/stage/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../.. --whole-archive CMakeFiles\cmTryCompileExec920701270.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec920701270.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtend.o
+make[1]: Leaving directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:D:/Soft/MinGW/bin/mingw32-make.exe "cmTryCompileExec920701270/fast"]
+  ignore line: [D:\Soft\GnuWin32\bin\make -f CMakeFiles\cmTryCompileExec920701270.dir\build.make CMakeFiles/cmTryCompileExec920701270.dir/build]
+  ignore line: [make[1]: Entering directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp']
+  ignore line: ["d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec920701270.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Soft\MinGW\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec920701270.dir\CMakeCCompilerABI.c.obj   -c "d:\Soft\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTryCompileExec920701270.exe]
+  ignore line: ["d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec920701270.dir\link.txt --verbose=1]
+  ignore line: ["d:\Soft\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec920701270.dir/objects.a]
+  ignore line: [D:\Soft\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec920701270.dir/objects.a @CMakeFiles\cmTryCompileExec920701270.dir\objects1.rsp]
+  ignore line: [D:\Soft\MinGW\bin\gcc.exe       -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec920701270.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec920701270.exe -Wl,--out-implib,libcmTryCompileExec920701270.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Soft\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.7.0/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.0 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/]
+  ignore line: [d:/soft/mingw/bin/../libexec/gcc/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/]
+  ignore line: [D:/Soft/boost_1_51_0/stage/lib/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec920701270.exe' '-mtune=i386' '-march=i386']
+  link line: [ d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/collect2.exe -Bdynamic -o cmTryCompileExec920701270.exe d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../crt2.o d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtbegin.o -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0 -Ld:/soft/mingw/bin/../lib/gcc -LD:/Soft/boost_1_51_0/stage/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../.. --whole-archive CMakeFiles\cmTryCompileExec920701270.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec920701270.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtend.o]
+    arg [d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec920701270.exe] ==> ignore
+    arg [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../crt2.o] ==> ignore
+    arg [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtbegin.o] ==> ignore
+    arg [-Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0] ==> dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0]
+    arg [-Ld:/soft/mingw/bin/../lib/gcc] ==> dir [d:/soft/mingw/bin/../lib/gcc]
+    arg [-LD:/Soft/boost_1_51_0/stage/lib] ==> dir [D:/Soft/boost_1_51_0/stage/lib]
+    arg [-Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib] ==> dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib]
+    arg [-Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../..] ==> dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec920701270.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec920701270.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0] ==> [d:/Soft/MinGW/lib/gcc/mingw32/4.7.0]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc] ==> [d:/Soft/MinGW/lib/gcc]
+  collapse dir [D:/Soft/boost_1_51_0/stage/lib] ==> [D:/Soft/boost_1_51_0/stage/lib]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib] ==> [d:/Soft/MinGW/mingw32/lib]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../..] ==> [d:/Soft/MinGW/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [d:/Soft/MinGW/lib/gcc/mingw32/4.7.0;d:/Soft/MinGW/lib/gcc;D:/Soft/boost_1_51_0/stage/lib;d:/Soft/MinGW/mingw32/lib;d:/Soft/MinGW/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:/Soft/MinGW/bin/mingw32-make.exe "cmTryCompileExec1319171160/fast"
+D:\Soft\GnuWin32\bin\make -f CMakeFiles\cmTryCompileExec1319171160.dir\build.make CMakeFiles/cmTryCompileExec1319171160.dir/build
+make[1]: Entering directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1319171160.dir/testCXXCompiler.cxx.obj
+D:\Soft\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec1319171160.dir\testCXXCompiler.cxx.obj -c D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1319171160.exe
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1319171160.dir\link.txt --verbose=1
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1319171160.dir/objects.a
+D:\Soft\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec1319171160.dir/objects.a @CMakeFiles\cmTryCompileExec1319171160.dir\objects1.rsp
+D:\Soft\MinGW\bin\g++.exe         -Wl,--whole-archive CMakeFiles\cmTryCompileExec1319171160.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1319171160.exe -Wl,--out-implib,libcmTryCompileExec1319171160.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+make[1]: Leaving directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:/Soft/MinGW/bin/mingw32-make.exe "cmTryCompileExec151214874/fast"
+D:\Soft\GnuWin32\bin\make -f CMakeFiles\cmTryCompileExec151214874.dir\build.make CMakeFiles/cmTryCompileExec151214874.dir/build
+make[1]: Entering directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec151214874.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Soft\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec151214874.dir\CMakeCXXCompilerABI.cpp.obj -c "d:\Soft\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec151214874.exe
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec151214874.dir\link.txt --verbose=1
+"d:\Soft\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec151214874.dir/objects.a
+D:\Soft\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec151214874.dir/objects.a @CMakeFiles\cmTryCompileExec151214874.dir\objects1.rsp
+D:\Soft\MinGW\bin\g++.exe       -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec151214874.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec151214874.exe -Wl,--out-implib,libcmTryCompileExec151214874.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=D:\Soft\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.7.0/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw
+Thread model: win32
+gcc version 4.7.0 (GCC) 
+COMPILER_PATH=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/;d:/soft/mingw/bin/../libexec/gcc/;d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/bin/
+LIBRARY_PATH=d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/;d:/soft/mingw/bin/../lib/gcc/;D:/Soft/boost_1_51_0/stage/lib/;d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib/;d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec151214874.exe' '-shared-libgcc' '-mtune=i386' '-march=i386'
+ d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec151214874.exe d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../crt2.o d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtbegin.o -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0 -Ld:/soft/mingw/bin/../lib/gcc -LD:/Soft/boost_1_51_0/stage/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../.. --whole-archive CMakeFiles\cmTryCompileExec151214874.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec151214874.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtend.o
+make[1]: Leaving directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld.exe|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:D:/Soft/MinGW/bin/mingw32-make.exe "cmTryCompileExec151214874/fast"]
+  ignore line: [D:\Soft\GnuWin32\bin\make -f CMakeFiles\cmTryCompileExec151214874.dir\build.make CMakeFiles/cmTryCompileExec151214874.dir/build]
+  ignore line: [make[1]: Entering directory `D:/Dropbox/refactoring_MIPS/build/CMakeFiles/CMakeTmp']
+  ignore line: ["d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_progress_report D:\Dropbox\refactoring_MIPS\build\CMakeFiles\CMakeTmp\CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec151214874.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Soft\MinGW\bin\g++.exe     -o CMakeFiles\cmTryCompileExec151214874.dir\CMakeCXXCompilerABI.cpp.obj -c "d:\Soft\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTryCompileExec151214874.exe]
+  ignore line: ["d:\Soft\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec151214874.dir\link.txt --verbose=1]
+  ignore line: ["d:\Soft\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec151214874.dir/objects.a]
+  ignore line: [D:\Soft\MinGW\bin\ar.exe cr CMakeFiles\cmTryCompileExec151214874.dir/objects.a @CMakeFiles\cmTryCompileExec151214874.dir\objects1.rsp]
+  ignore line: [D:\Soft\MinGW\bin\g++.exe       -v -Wl,--whole-archive CMakeFiles\cmTryCompileExec151214874.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec151214874.exe -Wl,--out-implib,libcmTryCompileExec151214874.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Soft\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.7.0/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --disable-build-poststage1-with-cxx --enable-version-specific-runtime-libs --build=mingw32 --prefix=/mingw]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.0 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/]
+  ignore line: [d:/soft/mingw/bin/../libexec/gcc/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/]
+  ignore line: [D:/Soft/boost_1_51_0/stage/lib/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib/]
+  ignore line: [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec151214874.exe' '-shared-libgcc' '-mtune=i386' '-march=i386']
+  link line: [ d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTryCompileExec151214874.exe d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../crt2.o d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtbegin.o -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0 -Ld:/soft/mingw/bin/../lib/gcc -LD:/Soft/boost_1_51_0/stage/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib -Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../.. --whole-archive CMakeFiles\cmTryCompileExec151214874.dir/objects.a --no-whole-archive --out-implib libcmTryCompileExec151214874.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtend.o]
+    arg [d:/soft/mingw/bin/../libexec/gcc/mingw32/4.7.0/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec151214874.exe] ==> ignore
+    arg [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../crt2.o] ==> ignore
+    arg [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtbegin.o] ==> ignore
+    arg [-Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0] ==> dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0]
+    arg [-Ld:/soft/mingw/bin/../lib/gcc] ==> dir [d:/soft/mingw/bin/../lib/gcc]
+    arg [-LD:/Soft/boost_1_51_0/stage/lib] ==> dir [D:/Soft/boost_1_51_0/stage/lib]
+    arg [-Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib] ==> dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib]
+    arg [-Ld:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../..] ==> dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTryCompileExec151214874.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec151214874.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0] ==> [d:/Soft/MinGW/lib/gcc/mingw32/4.7.0]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc] ==> [d:/Soft/MinGW/lib/gcc]
+  collapse dir [D:/Soft/boost_1_51_0/stage/lib] ==> [D:/Soft/boost_1_51_0/stage/lib]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../../../mingw32/lib] ==> [d:/Soft/MinGW/mingw32/lib]
+  collapse dir [d:/soft/mingw/bin/../lib/gcc/mingw32/4.7.0/../../..] ==> [d:/Soft/MinGW/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [d:/Soft/MinGW/lib/gcc/mingw32/4.7.0;d:/Soft/MinGW/lib/gcc;D:/Soft/boost_1_51_0/stage/lib;d:/Soft/MinGW/mingw32/lib;d:/Soft/MinGW/lib]
+
+

@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+PROJECT(mipstoolchain)
+INCLUDE_DIRECTORIES(src ../MyParser) # add myParser Into workspace
+LINK_DIRECTORIES(../MyParser)
+ADD_SUBDIRECTORY(src bin)
+# ADD_EXECUTABLE(assembler ${ASM_SRC})
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+SET(CMAKE_CXX_FLAGS "std=c++0x -Wall")
+MESSAGE(STAUS "Source directory " ${PROJECT_SOURCE_DIR})
+MESSAGE(STAUS "Binary directory " ${PROJECT_BINARY_DIR})

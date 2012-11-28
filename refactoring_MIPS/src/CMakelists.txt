@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+SET(ASM_SRC MainParser CodeParser CommentParser
+	)
+ADD_EXECUTABLE(assembler ${ASM_SRC})
+SET(CMAKE_CXX_FLAGS "-std=c++0x -Wall")

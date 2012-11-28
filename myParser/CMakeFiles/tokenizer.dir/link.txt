@@ -1,0 +1,2 @@
+D:\Soft\MinGW\bin\ar.exe cr libtokenizer.a  CMakeFiles/tokenizer.dir/tokenizer.cpp.obj
+D:\Soft\MinGW\bin\ranlib.exe libtokenizer.a
